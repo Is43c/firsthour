@@ -3,59 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>First Hour — The alarm that blocks your morning scroll</title>
-<meta name="description" content="Your alarm wakes you up. TikTok keeps you in bed. First Hour keeps your dopamine apps locked for the first 15–60 minutes of your day.">
-<meta property="og:title" content="First Hour: Anti-Scroll Alarm">
-<meta property="og:description" content="Wake up without losing your morning to TikTok.">
+<title>First Hour</title>
 <style>
-  :root{
-    --bg:#0B0E14; --surface:#151A24; --text:#F5F3EF; --text2:#8B93A3;
-    --dawn1:#FF9E5E; --dawn2:#FF5E7E;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",Roboto,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;overflow-x:hidden}
-  .glow{position:fixed;bottom:-40vh;left:50%;transform:translateX(-50%);width:140vw;height:80vh;background:radial-gradient(ellipse at center,rgba(255,158,94,.18),rgba(255,94,126,.06) 55%,transparent 75%);pointer-events:none}
-  main{max-width:560px;padding:64px 24px 96px;text-align:center;position:relative;z-index:1}
-  .flame{font-size:56px;line-height:1;background:linear-gradient(135deg,var(--dawn1),var(--dawn2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:16px}
-  .wordmark{font-size:20px;font-weight:600;letter-spacing:.02em;margin-bottom:56px}
-  h1{font-size:clamp(32px,7vw,44px);font-weight:700;line-height:1.15;margin-bottom:20px}
-  h1 .dawn{background:linear-gradient(135deg,var(--dawn1),var(--dawn2));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{font-size:19px;color:var(--text2);line-height:1.5;margin-bottom:44px}
-  .how{display:flex;flex-direction:column;gap:12px;margin-bottom:44px}
-  .step{background:var(--surface);border-radius:20px;padding:18px 20px;font-size:16px;text-align:left;display:flex;gap:14px;align-items:center}
-  .step b{background:linear-gradient(135deg,var(--dawn1),var(--dawn2));-webkit-background-clip:text;background-clip:text;color:transparent;font-size:15px;min-width:20px}
-  form{display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap;justify-content:center}
-  input[type=email]{flex:1;min-width:220px;background:var(--surface);border:1px solid #232a38;border-radius:16px;padding:16px 18px;color:var(--text);font-size:16px;outline:none}
-  input[type=email]:focus{border-color:var(--dawn1)}
-  button{background:linear-gradient(135deg,var(--dawn1),var(--dawn2));border:none;border-radius:16px;padding:16px 26px;color:#1a0f0a;font-size:16px;font-weight:700;cursor:pointer}
-  button:active{transform:scale(.98)}
-  .fine{font-size:13px;color:var(--text2);margin-bottom:56px}
-  .promise{font-size:15px;color:var(--text2);line-height:1.6;border-top:1px solid #1d2430;padding-top:28px}
-  .promise b{color:var(--text)}
-  .ok{display:none;background:var(--surface);border-radius:16px;padding:16px;font-size:16px;margin-bottom:14px}
+  html,body{margin:0;padding:0;overflow-x:hidden}
+  body{background:#0B0E14;color:#F5F3EF;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+  h1{font-size:26px;font-weight:700;margin:0 0 10px}
+  p{color:#8B93A3;font-size:15px;margin:0}
+  a{color:#FF9E5E;text-decoration:none}
 </style>
 </head>
 <body>
-<div class="glow"></div>
-<main>
-  <div class="flame">☀</div>
-  <div class="wordmark">First Hour</div>
-
-  <h1>Your alarm wakes you up.<br><span class="dawn">TikTok keeps you in bed.</span></h1>
-  <p class="sub">First Hour keeps your dopamine apps locked for the first 15–60 minutes of your day. Turn your alarm off like a normal person — TikTok just isn't there.</p>
-
-  <div class="how">
-    <div class="step"><b>1</b>Your apps lock before your alarm even rings — waking up early won't save you.</div>
-    <div class="step"><b>2</b>Stop the alarm normally. No math. No QR codes. No missions.</div>
-    <div class="step"><b>3</b>Your first hour stays yours. Then everything unlocks.</div>
+  <div>
+    <h1>First Hour</h1>
+    <p><a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html">Support</a></p>
   </div>
-
-  <p class="fine" style="margin-bottom:56px">iPhone · iOS 26+ · Coming to the App Store.</p>
-
-  <p class="promise">
-    <b>What it never does:</b> block your calls, messages, maps, or camera · claim to be "unbreakable" · collect your data (no account, everything stays on your phone) · trap you in a subscription (cancel in two taps, your streak survives).
-  </p>
-  <p class="fine" style="margin-top:36px;margin-bottom:0"><a href="privacy.html" style="color:var(--text2)">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html" style="color:var(--text2)">Support</a></p>
-</main>
 </body>
 </html>
