@@ -50,30 +50,12 @@
     <div class="step"><b>3</b>Your first hour stays yours. Then everything unlocks.</div>
   </div>
 
-  <!-- FORM_ACTION: replace with your Tally/Formspree/Buttondown endpoint before deploy -->
-  <form id="wl" action="#" method="POST" onsubmit="return fh(event)">
-    <input type="email" name="email" placeholder="your@email.com" required>
-    <button type="submit">Get beta access</button>
-  </form>
-  <div class="ok" id="ok">You're in. Watch your inbox — beta invites go out in order.</div>
-  <p class="fine">iPhone only (iOS 26+). No spam — one email when your invite is ready.</p>
+  <p class="fine" style="margin-bottom:56px">iPhone · iOS 26+ · Coming to the App Store.</p>
 
   <p class="promise">
     <b>What it never does:</b> block your calls, messages, maps, or camera · claim to be "unbreakable" · collect your data (no account, everything stays on your phone) · trap you in a subscription (cancel in two taps, your streak survives).
   </p>
   <p class="fine" style="margin-top:36px;margin-bottom:0"><a href="privacy.html" style="color:var(--text2)">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html" style="color:var(--text2)">Support</a></p>
 </main>
-<script>
-function fh(e){
-  var f=document.getElementById('wl');
-  if(f.action.endsWith('#')||f.action===window.location.href+'#'){
-    e.preventDefault();
-    document.getElementById('ok').style.display='block';
-    f.style.display='none';
-    return false; // placeholder mode: no endpoint wired yet
-  }
-  return true; // real endpoint set: let it POST
-}
-</script>
 </body>
 </html>
